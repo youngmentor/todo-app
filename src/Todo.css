@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    margin: 5px;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.App{
+    border-radius: 10px;
+    background-color:rgb(226, 226, 234);
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    /* margin: 20px; */
+    padding: 10px;
+}
+.Header{
+    width: 270px;
+    height: 340px;
+    background-color:gray;
+    border-radius: 15px;
+
+}
+.todo_body{
+    margin: 15px;
+    display: flex;
+    gap: 12px;
+}
+.todo_body input{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+.todo_body button{
+    height: 30px;
+    width: 40px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(89, 93, 99);
+}
+.middle{
+    width: 250px;
+    height: 300px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: rgb(89, 93, 99);
+    border-radius: 15px;
+}
+.middle-item{
+    width: 200px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+.form{
+    width: 250px;
+    margin-top: 5px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:10px;
+}
+.delete_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: gray;
+    margin-right:10px;
+}
+.to-do-item{
+    margin-left: 10px;
+}
